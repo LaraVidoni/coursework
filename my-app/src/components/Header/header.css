@@ -1,0 +1,65 @@
+:root {
+    /* Colours */
+    --green1: #49C385;
+    --green2: #25B66C;
+    --green3: #00AC56;
+    --orange1: #FFA12F;
+    --orange2: #F48600;
+    --darkgray: #202529;
+    /* Box shadows */
+    --boxShadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    --boxShadowHover: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    /* Border radius */
+    --borderRadius: 0.5rem;
+}
+
+.header {
+    display: grid;
+    background-color: var(--green2);
+    width: 100%;
+    align-items: center;
+}
+
+.block1 {
+    display: inline-flex;
+}
+
+.logo {
+    width: 25%;
+    flex: 1;
+}
+
+.search {
+    padding: 2%;
+    flex-grow: 2;
+}
+
+.searchBar {
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: var(--borderRadius);
+    border: none;
+    padding: 0.3rem;
+}
+
+.user {
+    flex: 1;
+    display: inline-flex;
+    align-self: center;
+}
+
+.unkUser {
+    width: 10%;
+}
+
+.loginLink {
+    margin-left: 5%;
+    color: var(--orange1);
+    font-weight: bold;
+    text-shadow: black;
+    font-size: 20px;
+}
+
+.loginLink:hover {
+    color: var(--orange2);
+}
